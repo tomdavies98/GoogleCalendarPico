@@ -1,0 +1,25 @@
+# Local secrets — never commit real Wi-Fi / Google tokens
+secrets.py
+client_secret*.json
+token.json
+.credentials/
+
+# Runtime files written on the Pico (also keep out of PC clones)
+events_cache.json
+fetch_pending.json
+paint_ui.flag
+orient.flag
+orient_log.txt
+rtc_stamp.txt
+
+# Firmware blobs (deploy script downloads on demand)
+*.uf2
+
+# Python / tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+.cursor/

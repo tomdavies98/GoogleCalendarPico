@@ -1,0 +1,6 @@
+# PC-only dependencies (OAuth helper + deploy/serial tools). Do not install on the Pico.
+google-auth-oauthlib>=1.2.0
+google-auth>=2.0.0
+mpremote>=1.24.0
+pyserial>=3.5
+pytest>=8.0.0
